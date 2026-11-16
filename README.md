@@ -20,7 +20,7 @@ through the transition, producing a GIF.
 > **Note:** The rendering module is adapted from
 > [**CVTHead**](https://github.com/HowieMa/CVTHead) — *"CVTHead: One-shot Controllable Head Avatar
 > with Vertex-feature Transformer"* (WACV 2024). Many thanks to the authors for releasing their code.
-> If you use the renderer, please also cite their paper (see [Citation](#citation)).
+> If you use the renderer, please also cite their paper).
 
 Sample inputs:
 
@@ -165,17 +165,6 @@ If you find this work useful, please cite:
   title   = {Instruction-Driven 3D Facial Expression Generation and Transition},
   journal = {IEEE Transactions on Multimedia},
   year    = {2025}
-}
-```
-
-The rendering module builds on CVTHead; please also cite:
-
-```bibtex
-@article{ma2023cvthead,
-  title   = {CVTHead: One-shot Controllable Head Avatar with Vertex-feature Transformer},
-  author  = {Ma, Haoyu and Zhang, Tong and Sun, Shanlin and Yan, Xiangyi and Han, Kun and Xie, Xiaohui},
-  journal = {IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-  year    = {2024}
 }
 ```
 
