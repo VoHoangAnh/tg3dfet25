@@ -13,9 +13,8 @@
 
 This repository contains the rendering and evaluation code for the paper. Given a single face image
 and a natural-language instruction such as *"Turn this face from anger to happiness"*, a
-text-to-motion model predicts FLAME expression and pose coefficients, and a
-[CVTHead](https://github.com/HowieMa/CVTHead)-based neural renderer animates the source face
-through the transition, producing a GIF.
+text-to-motion model predicts FLAME expression and pose coefficients, and a neural renderer animates the source face
+through the transition.
 
 > **Note:** The rendering module is adapted from
 > [**CVTHead**](https://github.com/HowieMa/CVTHead) — *"CVTHead: One-shot Controllable Head Avatar
