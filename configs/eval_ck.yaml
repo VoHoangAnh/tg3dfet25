@@ -1,0 +1,14 @@
+# Evaluation config for eval.py — edit the paths to match your setup.
+exp: outputs/eval_ck            # where logs are written
+
+data:
+  dataset_name: ck              # "ck" (CK+) or "celebv" (CelebV-HQ)
+  path: /path/to/CK+/images     # root folder of the images
+  meta: /path/to/CK+/meta       # per-image landmark .pkl files (same layout as images)
+  json: /path/to/ck_test.json   # list of {caption, lb_target1, img_target1, lb_target2, img_target2[, subj]}
+
+model:
+  ckpt_pth: data/cvthead.pth    # pre-trained CVTHead checkpoint
+
+training:
+  num_workers: 4

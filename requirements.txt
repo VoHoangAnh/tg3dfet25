@@ -1,0 +1,29 @@
+# Tested with Python 3.9.
+#
+# Install these first, matching your CUDA version (see README):
+#   torch, torchvision          -> https://pytorch.org/get-started/locally/
+#   pytorch3d                   -> https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md
+#   torch-scatter               -> https://github.com/rusty1s/pytorch_scatter#installation
+
+numpy<2
+scipy
+scikit-image
+scikit-learn
+opencv-python
+Pillow
+imageio
+matplotlib
+tqdm
+PyYAML
+yacs
+loguru
+einops
+kornia
+face-alignment
+transformers
+lpips
+pytorch-msssim
+torchmetrics
+torch-fidelity
+torchfile
+openmesh
