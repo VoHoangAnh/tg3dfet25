@@ -5,7 +5,7 @@
 *IEEE Transactions on Multimedia, 2025*
 
 [**Project Page**](https://vohoanganh.github.io/tg3dfet/) &nbsp;|&nbsp;
-[**Paper**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10980355)
+[**Paper**]([https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10980355](https://arxiv.org/abs/2601.08179))
 
 <p align="center">
   <img src="https://vohoanganh.github.io/tg3dfet/static/images/problem.png" width="800"/>
